@@ -1,0 +1,4 @@
+source;share/c_pckg/local_setup.bash
+source;share/c_pckg/local_setup.dsv
+source;share/c_pckg/local_setup.sh
+source;share/c_pckg/local_setup.zsh

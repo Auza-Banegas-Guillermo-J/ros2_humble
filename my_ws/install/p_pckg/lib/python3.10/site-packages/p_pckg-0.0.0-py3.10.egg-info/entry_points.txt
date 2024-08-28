@@ -1,0 +1,5 @@
+[console_scripts]
+listener = p_pckg.subscriber_member_function:main
+talker = p_pckg.publisher_member_function:main
+tranceiver = p_pckg.tranceiver_member_function:main
+

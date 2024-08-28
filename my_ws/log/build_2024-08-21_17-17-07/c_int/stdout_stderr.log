@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target pub_array[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub_array.dir/src/array_pub.cpp.o[0m
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:[m[K In constructor ‘[01m[KArrayPublisher::ArrayPublisher()[m[K’:
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:15:28:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KArrayPublisher[m[K’ does not have any field named ‘[01m[Ka[m[K’
+   15 |   : Node("ArrayPublisher"),[01;31m[Ka[m[K=0,b=0,c=0
+      |                            [01;31m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:15:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K=[m[K’ token
+   15 |   : Node("ArrayPublisher"),a[01;31m[K=[m[K0,b=0,c=0
+      |                             [01;31m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:15:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K=[m[K’ token
+gmake[2]: *** [CMakeFiles/pub_array.dir/build.make:76: CMakeFiles/pub_array.dir/src/array_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pub_array.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

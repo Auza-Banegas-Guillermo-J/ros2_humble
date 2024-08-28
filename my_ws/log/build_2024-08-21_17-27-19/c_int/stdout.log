@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target pub_array[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub_array.dir/src/array_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pub_array[0m
+[100%] Built target pub_array
+-- Install configuration: ""
+-- Installing: /home/daguill/my_ws/install/c_int/lib/c_int/pub_array
+-- Set runtime path of "/home/daguill/my_ws/install/c_int/lib/c_int/pub_array" to ""
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int//launch
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int//launch/_launch.py
+-- Installing: /home/daguill/my_ws/install/c_int/share/ament_index/resource_index/package_run_dependencies/c_int
+-- Installing: /home/daguill/my_ws/install/c_int/share/ament_index/resource_index/parent_prefix_path/c_int
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/environment/ament_prefix_path.sh
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/environment/ament_prefix_path.dsv
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/environment/path.sh
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/environment/path.dsv
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.bash
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.sh
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.zsh
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.dsv
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/package.dsv
+-- Installing: /home/daguill/my_ws/install/c_int/share/ament_index/resource_index/packages/c_int
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/cmake/c_intConfig.cmake
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/cmake/c_intConfig-version.cmake
+-- Installing: /home/daguill/my_ws/install/c_int/share/c_int/package.xml

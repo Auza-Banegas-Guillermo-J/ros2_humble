@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target pub_array[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub_array.dir/src/array_pub.cpp.o[0m
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+   21 |   [01;31m[Kstring[m[K::string info ="";
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kstdin[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:[m[K In member function ‘[01m[Kvoid ArrayPublisher::timer_callback()[m[K’:
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo[m[K’ was not declared in this scope
+   32 |     [01;31m[Kinfo[m[K = "Publishing : " + to_string(a); + " " + to_string(b) + " "+ to_string(c);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:32:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kto_string[m[K’ was not declared in this scope
+   32 |     info = "Publishing : " + [01;31m[Kto_string[m[K(a); + " " + to_string(b) + " "+ to_string(c);
+      |                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:32:30:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:4[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6739:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::to_string[m[K’
+ 6739 |   [01;36m[Kto_string[m[K(long double __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:361:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::to_string[m[K’
+  361 | [01;36m[Kto_string[m[K(const ParameterValue & type);
+      | [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pub_array.dir/build.make:76: CMakeFiles/pub_array.dir/src/array_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pub_array.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

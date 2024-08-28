@@ -1,0 +1,26 @@
+[0.478s] Invoking command in '/home/daguill/my_ws/src/p_int': PYTHONPATH=/home/daguill/my_ws/build/p_int/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daguill/my_ws/install/p_int/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p_int build --build-base /home/daguill/my_ws/build/p_int/build install --record /home/daguill/my_ws/build/p_int/install.log --single-version-externally-managed install_data
+[0.676s] running egg_info
+[0.676s] writing ../../build/p_int/p_int.egg-info/PKG-INFO
+[0.676s] writing dependency_links to ../../build/p_int/p_int.egg-info/dependency_links.txt
+[0.677s] writing entry points to ../../build/p_int/p_int.egg-info/entry_points.txt
+[0.677s] writing requirements to ../../build/p_int/p_int.egg-info/requires.txt
+[0.677s] writing top-level names to ../../build/p_int/p_int.egg-info/top_level.txt
+[0.678s] reading manifest file '../../build/p_int/p_int.egg-info/SOURCES.txt'
+[0.678s] adding license file 'LICENSE'
+[0.679s] writing manifest file '../../build/p_int/p_int.egg-info/SOURCES.txt'
+[0.679s] running build
+[0.679s] running build_py
+[0.679s] copying p_int/arr_pub.py -> /home/daguill/my_ws/build/p_int/build/lib/p_int
+[0.679s] running install
+[0.680s] running install_lib
+[0.680s] copying /home/daguill/my_ws/build/p_int/build/lib/p_int/arr_pub.py -> /home/daguill/my_ws/install/p_int/lib/python3.10/site-packages/p_int
+[0.681s] byte-compiling /home/daguill/my_ws/install/p_int/lib/python3.10/site-packages/p_int/arr_pub.py to arr_pub.cpython-310.pyc
+[0.681s] running install_data
+[0.681s] running install_egg_info
+[0.682s] removing '/home/daguill/my_ws/install/p_int/lib/python3.10/site-packages/p_int-0.0.0-py3.10.egg-info' (and everything under it)
+[0.683s] Copying ../../build/p_int/p_int.egg-info to /home/daguill/my_ws/install/p_int/lib/python3.10/site-packages/p_int-0.0.0-py3.10.egg-info
+[0.683s] running install_scripts
+[0.699s] Installing array_listen script to /home/daguill/my_ws/install/p_int/lib/p_int
+[0.699s] Installing array_talk script to /home/daguill/my_ws/install/p_int/lib/p_int
+[0.699s] writing list of installed files to '/home/daguill/my_ws/build/p_int/install.log'
+[0.717s] Invoked command in '/home/daguill/my_ws/src/p_int' returned '0': PYTHONPATH=/home/daguill/my_ws/build/p_int/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daguill/my_ws/install/p_int/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p_int build --build-base /home/daguill/my_ws/build/p_int/build install --record /home/daguill/my_ws/build/p_int/install.log --single-version-externally-managed install_data

@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (-) JobUnselected: {'identifier': 'c_pckg'}
+[0.000431] (-) JobUnselected: {'identifier': 'p_pckg'}
+[0.000447] (c_int) JobQueued: {'identifier': 'c_int', 'dependencies': OrderedDict()}
+[0.000462] (c_int) JobStarted: {'identifier': 'c_int'}
+[0.005748] (c_int) JobProgress: {'identifier': 'c_int', 'progress': 'cmake'}
+[0.006078] (c_int) JobProgress: {'identifier': 'c_int', 'progress': 'build'}
+[0.006747] (c_int) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daguill/my_ws/build/c_int', '--', '-j12', '-l12'], 'cwd': '/home/daguill/my_ws/build/c_int', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'daguill'), ('LC_TIME', 'es_BO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/daguill'), ('OLDPWD', '/home/daguill/my_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_BO.UTF-8'), ('MANAGERPID', '1414'), ('SYSTEMD_EXEC_PID', '1753'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3143'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daguill'), ('JOURNAL_STREAM', '8:14224'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'daguill'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dgpc:@/tmp/.ICE-unix/1563,unix/dgpc:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '6238a467ebc041e5bc400b63dd3c4702'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W9BOS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:dc2cd56b-5d91-4781-b800-5bcf9db7fb11'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/daguill/my_ws/build/c_int'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038176] (c_int) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub_array\x1b[0m\n'}
+[0.049970] (c_int) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_array.dir/src/array_pub.cpp.o\x1b[0m\n'}
+[0.099839] (-) TimerEvent: {}
+[0.200067] (-) TimerEvent: {}
+[0.300279] (-) TimerEvent: {}
+[0.400487] (-) TimerEvent: {}
+[0.500739] (-) TimerEvent: {}
+[0.600975] (-) TimerEvent: {}
+[0.701208] (-) TimerEvent: {}
+[0.801454] (-) TimerEvent: {}
+[0.901703] (-) TimerEvent: {}
+[1.001951] (-) TimerEvent: {}
+[1.102158] (-) TimerEvent: {}
+[1.202412] (-) TimerEvent: {}
+[1.302663] (-) TimerEvent: {}
+[1.402899] (-) TimerEvent: {}
+[1.503171] (-) TimerEvent: {}
+[1.603405] (-) TimerEvent: {}
+[1.703679] (-) TimerEvent: {}
+[1.751935] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:14:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KArrayPublisher\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.752111] (c_int) StderrLine: {'line': b'   14 |   \x1b[01;31m\x1b[KArrayPublisher\x1b[m\x1b[K()\n'}
+[1.752163] (c_int) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.752640] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:34:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.752712] (c_int) StderrLine: {'line': b'   34 |   rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[1.752762] (c_int) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.752827] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:34:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.752894] (c_int) StderrLine: {'line': b'   34 |   rclcpp::Publisher<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[1.752959] (c_int) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.753016] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:34:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.753059] (c_int) StderrLine: {'line': b'   34 |   rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[1.753101] (c_int) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.753142] (c_int) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.754143] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:34:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.754236] (c_int) StderrLine: {'line': b'   34 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[1.754285] (c_int) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.754330] (c_int) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.754528] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MinimalPublisher::ArrayPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.754612] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[1.754661] (c_int) StderrLine: {'line': b'   15 |   : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("ArrayPublisher")\n'}
+[1.754724] (c_int) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.759128] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.759215] (c_int) StderrLine: {'line': b'   17 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Int8MultiArray>("Auza_array", 10);\n'}
+[1.759264] (c_int) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.759309] (c_int) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.772074] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.772205] (c_int) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[Ka\x1b[m\x1b[K=0;b=0;c=0;\n'}
+[1.772255] (c_int) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.774886] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:20:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.775009] (c_int) StderrLine: {'line': b'   20 |     a=0;\x1b[01;31m\x1b[Kb\x1b[m\x1b[K=0;c=0;\n'}
+[1.775059] (c_int) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.777571] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:20:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.777659] (c_int) StderrLine: {'line': b'   20 |     a=0;b=0;\x1b[01;31m\x1b[Kc\x1b[m\x1b[K=0;\n'}
+[1.777707] (c_int) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.777751] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:21:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.777806] (c_int) StderrLine: {'line': b'   21 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.777849] (c_int) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.780276] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.780362] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:27:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.780420] (c_int) StderrLine: {'line': b'   27 |     message.data = "Array values : " + std::to_string(\x1b[01;31m\x1b[Ka\x1b[m\x1b[K) + std::to_string(a) + std::to_string(a);\n'}
+[1.780470] (c_int) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.780747] (c_int) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.780814] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.780860] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.780903] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.780990] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.781031] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.781071] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.781110] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.781149] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.781188] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.781227] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.781266] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:6\x1b[m\x1b[K:\n'}
+[1.781304] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:28:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _data_type = class std::vector<signed char, std::allocator<signed char> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::vector<signed char, std::allocator<signed char> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.781347] (c_int) StderrLine: {'line': b'   28 |     RCLCPP_INFO(this->get_logger(), "Publishing: \'%s\'", message.data.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[1.781386] (c_int) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.785009] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:29:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.785081] (c_int) StderrLine: {'line': b'   29 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[1.785128] (c_int) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.785171] (c_int) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.787646] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:31:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.787731] (c_int) StderrLine: {'line': b'   31 |     \x1b[01;31m\x1b[Kc\x1b[m\x1b[K++;\n'}
+[1.787783] (c_int) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.790968] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.791090] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:40:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KArrayPublisher\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.791175] (c_int) StderrLine: {'line': b'   40 |   rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[KArrayPublisher\x1b[m\x1b[K>());\n'}
+[1.791254] (c_int) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.791299] (c_int) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[KMinimalPublisher\x1b[m\x1b[K\n'}
+[1.791343] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:40:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.791388] (c_int) StderrLine: {'line': b'   40 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<ArrayPublisher>()\x1b[m\x1b[K);\n'}
+[1.791431] (c_int) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.791568] (c_int) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.791634] (c_int) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:3\x1b[m\x1b[K:\n'}
+[1.791680] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.791726] (c_int) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.791768] (c_int) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.791809] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.791851] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:40:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.791891] (c_int) StderrLine: {'line': b'   40 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<ArrayPublisher>()\x1b[m\x1b[K);\n'}
+[1.791975] (c_int) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.803742] (-) TimerEvent: {}
+[1.903955] (-) TimerEvent: {}
+[2.004163] (-) TimerEvent: {}
+[2.104409] (-) TimerEvent: {}
+[2.204662] (-) TimerEvent: {}
+[2.304937] (-) TimerEvent: {}
+[2.307175] (c_int) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pub_array.dir/build.make:76: CMakeFiles/pub_array.dir/src/array_pub.cpp.o] Error 1\n'}
+[2.307446] (c_int) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pub_array.dir/all] Error 2\n'}
+[2.307668] (c_int) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.309232] (c_int) CommandEnded: {'returncode': 2}
+[2.332609] (c_int) JobEnded: {'identifier': 'c_int', 'rc': 2}
+[2.342874] (-) EventReactorShutdown: {}

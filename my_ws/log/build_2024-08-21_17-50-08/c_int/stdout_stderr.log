@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target pub_array[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub_array.dir/src/array_pub.cpp.o[0m
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:46:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   46 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:33:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   33 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), info.c_str();
+      |                [01;31m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:12:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   12 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:[m[K In constructor ‘[01m[KArrayPublisher::ArrayPublisher()[m[K’:
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   16 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int8MultiArray>("Auza_array", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   17 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:[m[K In member function ‘[01m[Kvoid ArrayPublisher::timer_callback()[m[K’:
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   33 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), info.c_str();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:33:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   33 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), info.c_str();
+      |                [01;31m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:25:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   25 |   [01;36m[K{[m[K
+      |   [01;36m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:[m[K At global scope:
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:33:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   33 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), info.c_str();
+      |                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/pub_array.dir/build.make:76: CMakeFiles/pub_array.dir/src/array_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pub_array.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

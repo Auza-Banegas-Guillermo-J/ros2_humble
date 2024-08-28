@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000350] (-) JobUnselected: {'identifier': 'c_pckg'}
+[0.000387] (-) JobUnselected: {'identifier': 'p_pckg'}
+[0.000427] (c_int) JobQueued: {'identifier': 'c_int', 'dependencies': OrderedDict()}
+[0.000443] (c_int) JobStarted: {'identifier': 'c_int'}
+[0.006360] (c_int) JobProgress: {'identifier': 'c_int', 'progress': 'cmake'}
+[0.006778] (c_int) JobProgress: {'identifier': 'c_int', 'progress': 'build'}
+[0.007493] (c_int) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daguill/my_ws/build/c_int', '--', '-j12', '-l12'], 'cwd': '/home/daguill/my_ws/build/c_int', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'daguill'), ('LC_TIME', 'es_BO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/daguill'), ('OLDPWD', '/home/daguill/my_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_BO.UTF-8'), ('MANAGERPID', '1414'), ('SYSTEMD_EXEC_PID', '1753'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3143'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/daguill/my_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daguill'), ('JOURNAL_STREAM', '8:14224'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'daguill'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dgpc:@/tmp/.ICE-unix/1563,unix/dgpc:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '6238a467ebc041e5bc400b63dd3c4702'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W9BOS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/daguill/my_ws/install/c_int:/home/daguill/my_ws/install/p_pckg:/home/daguill/my_ws/install/c_pckg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb14056e-deb6-4a39-b1f4-32ff665b1d5d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/daguill/my_ws/build/c_int'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/daguill/my_ws/install/c_int:/home/daguill/my_ws/install/c_pckg:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble')]), 'shell': False}
+[0.039287] (c_int) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub_array\x1b[0m\n'}
+[0.050854] (c_int) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_array.dir/src/array_pub.cpp.o\x1b[0m\n'}
+[0.099855] (-) TimerEvent: {}
+[0.200095] (-) TimerEvent: {}
+[0.210886] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:46:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated argument list invoking macro "RCLCPP_INFO"\n'}
+[0.211045] (c_int) StderrLine: {'line': b'   46 | }\n'}
+[0.211148] (c_int) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.300229] (-) TimerEvent: {}
+[0.400488] (-) TimerEvent: {}
+[0.500745] (-) TimerEvent: {}
+[0.601005] (-) TimerEvent: {}
+[0.701264] (-) TimerEvent: {}
+[0.801548] (-) TimerEvent: {}
+[0.901808] (-) TimerEvent: {}
+[1.002089] (-) TimerEvent: {}
+[1.102326] (-) TimerEvent: {}
+[1.202543] (-) TimerEvent: {}
+[1.302810] (-) TimerEvent: {}
+[1.403071] (-) TimerEvent: {}
+[1.503316] (-) TimerEvent: {}
+[1.603540] (-) TimerEvent: {}
+[1.703794] (-) TimerEvent: {}
+[1.792496] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:33:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[1.792632] (c_int) StderrLine: {'line': b'   33 |     RCLCPP_INFO\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthis->get_logger(), info.c_str();\n'}
+[1.792681] (c_int) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.792726] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:12:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.792769] (c_int) StderrLine: {'line': b'   12 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[1.792810] (c_int) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.797729] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KArrayPublisher::ArrayPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.797818] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:16:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.797867] (c_int) StderrLine: {'line': b'   16 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Int8MultiArray>("Auza_array", 10);\n'}
+[1.797912] (c_int) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.797954] (c_int) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.803858] (-) TimerEvent: {}
+[1.804349] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.804442] (c_int) StderrLine: {'line': b'   17 |     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(\n'}
+[1.804490] (c_int) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.804534] (c_int) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[1.815781] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArrayPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.815884] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:33:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.815932] (c_int) StderrLine: {'line': b'   33 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), info.c_str();\n'}
+[1.815976] (c_int) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.816019] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:33:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[1.816061] (c_int) StderrLine: {'line': b'   33 |     RCLCPP_INFO\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthis->get_logger(), info.c_str();\n'}
+[1.816122] (c_int) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.816163] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:25:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.816225] (c_int) StderrLine: {'line': b'   25 |   \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[1.816266] (c_int) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.816305] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.816345] (c_int) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:33:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[1.816384] (c_int) StderrLine: {'line': b'   33 |     RCLCPP_INFO\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthis->get_logger(), info.c_str();\n'}
+[1.816424] (c_int) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.903956] (-) TimerEvent: {}
+[2.004216] (-) TimerEvent: {}
+[2.104445] (-) TimerEvent: {}
+[2.204693] (-) TimerEvent: {}
+[2.304912] (-) TimerEvent: {}
+[2.353544] (c_int) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pub_array.dir/build.make:76: CMakeFiles/pub_array.dir/src/array_pub.cpp.o] Error 1\n'}
+[2.353868] (c_int) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pub_array.dir/all] Error 2\n'}
+[2.354185] (c_int) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.355658] (c_int) CommandEnded: {'returncode': 2}
+[2.380447] (c_int) JobEnded: {'identifier': 'c_int', 'rc': 2}
+[2.390809] (-) EventReactorShutdown: {}

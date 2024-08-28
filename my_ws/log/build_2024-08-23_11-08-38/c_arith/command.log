@@ -1,0 +1,4 @@
+Invoking command in '/home/daguill/my_ws/build/c_arith': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_arith -- -j12 -l12
+Invoked command in '/home/daguill/my_ws/build/c_arith' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_arith -- -j12 -l12
+Invoking command in '/home/daguill/my_ws/build/c_arith': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_arith
+Invoked command in '/home/daguill/my_ws/build/c_arith' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_arith

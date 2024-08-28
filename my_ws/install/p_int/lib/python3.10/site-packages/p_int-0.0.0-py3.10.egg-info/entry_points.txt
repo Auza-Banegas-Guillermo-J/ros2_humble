@@ -1,0 +1,4 @@
+[console_scripts]
+array_listen = p_int.arr_sub:main
+array_talk = p_int.arr_pub:main
+

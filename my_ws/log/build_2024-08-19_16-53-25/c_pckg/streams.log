@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/daguill/my_ws/build/c_pckg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_pckg -- -j12 -l12
+[0.052s] [ 66%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.052s] [ 66%] [32mBuilding CXX object CMakeFiles/tranceiver.dir/src/tranceiver_member_function.cpp.o[0m
+[0.052s] [ 66%] Built target listener
+[3.585s] [ 83%] [32m[1mLinking CXX executable talker[0m
+[3.721s] [ 83%] Built target talker
+[6.720s] [100%] [32m[1mLinking CXX executable tranceiver[0m
+[6.992s] [100%] Built target tranceiver
+[6.999s] Invoked command in '/home/daguill/my_ws/build/c_pckg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_pckg -- -j12 -l12
+[7.027s] Invoking command in '/home/daguill/my_ws/build/c_pckg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_pckg
+[7.033s] -- Install configuration: ""
+[7.033s] -- Installing: /home/daguill/my_ws/install/c_pckg/lib/c_pckg/talker
+[7.034s] -- Set runtime path of "/home/daguill/my_ws/install/c_pckg/lib/c_pckg/talker" to ""
+[7.034s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/lib/c_pckg/listener
+[7.035s] -- Installing: /home/daguill/my_ws/install/c_pckg/lib/c_pckg/tranceiver
+[7.037s] -- Set runtime path of "/home/daguill/my_ws/install/c_pckg/lib/c_pckg/tranceiver" to ""
+[7.037s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/ament_index/resource_index/package_run_dependencies/c_pckg
+[7.037s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/ament_index/resource_index/parent_prefix_path/c_pckg
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/environment/ament_prefix_path.sh
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/environment/ament_prefix_path.dsv
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/environment/path.sh
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/environment/path.dsv
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/local_setup.bash
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/local_setup.sh
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/local_setup.zsh
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/local_setup.dsv
+[7.038s] -- Installing: /home/daguill/my_ws/install/c_pckg/share/c_pckg/package.dsv
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/ament_index/resource_index/packages/c_pckg
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/cmake/c_pckgConfig.cmake
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/cmake/c_pckgConfig-version.cmake
+[7.038s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/package.xml
+[7.039s] Invoked command in '/home/daguill/my_ws/build/c_pckg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_pckg

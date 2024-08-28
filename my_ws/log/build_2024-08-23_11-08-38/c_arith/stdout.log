@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target sum_array[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sum_array.dir/src/sum.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sum_array[0m
+[100%] Built target sum_array
+-- Install configuration: ""
+-- Installing: /home/daguill/my_ws/install/c_arith/lib/c_arith/sum_array
+-- Set runtime path of "/home/daguill/my_ws/install/c_arith/lib/c_arith/sum_array" to ""
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith//launch
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith//launch/1_launch.py
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith//launch/2_launch.py
+-- Installing: /home/daguill/my_ws/install/c_arith/share/ament_index/resource_index/package_run_dependencies/c_arith
+-- Installing: /home/daguill/my_ws/install/c_arith/share/ament_index/resource_index/parent_prefix_path/c_arith
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/environment/ament_prefix_path.sh
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/environment/ament_prefix_path.dsv
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/environment/path.sh
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/environment/path.dsv
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/local_setup.bash
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/local_setup.sh
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/local_setup.zsh
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/local_setup.dsv
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/package.dsv
+-- Installing: /home/daguill/my_ws/install/c_arith/share/ament_index/resource_index/packages/c_arith
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/cmake/c_arithConfig.cmake
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/cmake/c_arithConfig-version.cmake
+-- Installing: /home/daguill/my_ws/install/c_arith/share/c_arith/package.xml

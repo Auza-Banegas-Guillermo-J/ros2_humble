@@ -1,0 +1,30 @@
+[0.694s] Invoking command in '/home/daguill/my_ws/src/p_pckg': PYTHONPATH=/home/daguill/my_ws/build/p_pckg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p_pckg build --build-base /home/daguill/my_ws/build/p_pckg/build install --record /home/daguill/my_ws/build/p_pckg/install.log --single-version-externally-managed install_data
+[0.974s] running egg_info
+[0.974s] writing ../../build/p_pckg/p_pckg.egg-info/PKG-INFO
+[0.975s] writing dependency_links to ../../build/p_pckg/p_pckg.egg-info/dependency_links.txt
+[0.975s] writing entry points to ../../build/p_pckg/p_pckg.egg-info/entry_points.txt
+[0.975s] writing requirements to ../../build/p_pckg/p_pckg.egg-info/requires.txt
+[0.975s] writing top-level names to ../../build/p_pckg/p_pckg.egg-info/top_level.txt
+[0.977s] reading manifest file '../../build/p_pckg/p_pckg.egg-info/SOURCES.txt'
+[0.977s] adding license file 'LICENSE'
+[0.978s] writing manifest file '../../build/p_pckg/p_pckg.egg-info/SOURCES.txt'
+[0.978s] running build
+[0.979s] running build_py
+[0.979s] copying p_pckg/tranceiver_member_function.py -> /home/daguill/my_ws/build/p_pckg/build/lib/p_pckg
+[0.979s] copying p_pckg/publisher_member_function.py -> /home/daguill/my_ws/build/p_pckg/build/lib/p_pckg
+[0.979s] running install
+[0.980s] running install_lib
+[0.981s] copying /home/daguill/my_ws/build/p_pckg/build/lib/p_pckg/tranceiver_member_function.py -> /home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages/p_pckg
+[0.981s] copying /home/daguill/my_ws/build/p_pckg/build/lib/p_pckg/publisher_member_function.py -> /home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages/p_pckg
+[0.981s] byte-compiling /home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages/p_pckg/tranceiver_member_function.py to tranceiver_member_function.cpython-310.pyc
+[0.982s] byte-compiling /home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages/p_pckg/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.983s] running install_data
+[0.983s] running install_egg_info
+[0.985s] removing '/home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages/p_pckg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.985s] Copying ../../build/p_pckg/p_pckg.egg-info to /home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages/p_pckg-0.0.0-py3.10.egg-info
+[0.986s] running install_scripts
+[1.007s] Installing listener script to /home/daguill/my_ws/install/p_pckg/lib/p_pckg
+[1.008s] Installing talker script to /home/daguill/my_ws/install/p_pckg/lib/p_pckg
+[1.008s] Installing tranceiver script to /home/daguill/my_ws/install/p_pckg/lib/p_pckg
+[1.008s] writing list of installed files to '/home/daguill/my_ws/build/p_pckg/install.log'
+[1.034s] Invoked command in '/home/daguill/my_ws/src/p_pckg' returned '0': PYTHONPATH=/home/daguill/my_ws/build/p_pckg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p_pckg build --build-base /home/daguill/my_ws/build/p_pckg/build install --record /home/daguill/my_ws/build/p_pckg/install.log --single-version-externally-managed install_data

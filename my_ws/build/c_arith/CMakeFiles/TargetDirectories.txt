@@ -1,0 +1,10 @@
+/home/daguill/my_ws/build/c_arith/CMakeFiles/uninstall.dir
+/home/daguill/my_ws/build/c_arith/CMakeFiles/c_arith_uninstall.dir
+/home/daguill/my_ws/build/c_arith/CMakeFiles/sum_array.dir
+/home/daguill/my_ws/build/c_arith/CMakeFiles/test.dir
+/home/daguill/my_ws/build/c_arith/CMakeFiles/edit_cache.dir
+/home/daguill/my_ws/build/c_arith/CMakeFiles/rebuild_cache.dir
+/home/daguill/my_ws/build/c_arith/CMakeFiles/list_install_components.dir
+/home/daguill/my_ws/build/c_arith/CMakeFiles/install.dir
+/home/daguill/my_ws/build/c_arith/CMakeFiles/install/local.dir
+/home/daguill/my_ws/build/c_arith/CMakeFiles/install/strip.dir

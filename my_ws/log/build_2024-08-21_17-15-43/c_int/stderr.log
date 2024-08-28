@@ -1,0 +1,46 @@
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:[m[K In constructor ‘[01m[KArrayPublisher::ArrayPublisher()[m[K’:
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   17 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int8MultiArray>("Auza_array", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:19:26:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+   19 |       1500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ka[m[K’ was not declared in this scope
+   20 |     [01;31m[Ka[m[K=0;b=0;c=0;
+      |     [01;31m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kb[m[K’ was not declared in this scope
+   20 |     a=0;[01;31m[Kb[m[K=0;c=0;
+      |         [01;31m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+   20 |     a=0;b=0;[01;31m[Kc[m[K=0;
+      |             [01;31m[K^[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:[m[K In member function ‘[01m[Kvoid ArrayPublisher::timer_callback()[m[K’:
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:27:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ka[m[K’ was not declared in this scope
+   27 |     message.data = "Array values : " + std::to_string([01;31m[Ka[m[K) + std::to_string(a) + std::to_string(a);
+      |                                                       [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:6[m[K:
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:28:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<signed char, std::allocator<signed char> >[m[K’ {aka ‘[01m[Kclass std::vector<signed char, std::allocator<signed char> >[m[K’} has no member named ‘[01m[Kc_str[m[K’
+   28 |     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.[01;31m[Kc_str[m[K());
+      |                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   29 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+   31 |     [01;31m[Kc[m[K++;
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/pub_array.dir/build.make:76: CMakeFiles/pub_array.dir/src/array_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pub_array.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/daguill/my_ws/build/c_pckg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_pckg -- -j12 -l12
+[0.085s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.205s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.238s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.241s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.249s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.312s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.314s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.394s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.456s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.512s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.512s] -- Configured cppcheck include dirs: 
+[0.512s] -- Configured cppcheck exclude dirs and/or files: 
+[0.513s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.513s] -- Added test 'lint_cmake' to check CMake code style
+[0.514s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.514s] -- Added test 'uncrustify' to check C / C++ code style
+[0.515s] -- Configured uncrustify additional arguments: 
+[0.515s] -- Added test 'xmllint' to check XML markup files
+[0.516s] -- Configuring done
+[0.531s] -- Generating done
+[0.533s] -- Build files have been written to: /home/daguill/my_ws/build/c_pckg
+[0.551s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.551s] [35m[1mConsolidate compiler generated dependencies of target tranceiver[0m
+[0.551s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.574s] [100%] Built target tranceiver
+[0.574s] [100%] Built target talker
+[0.575s] [100%] Built target listener
+[0.582s] Invoked command in '/home/daguill/my_ws/build/c_pckg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_pckg -- -j12 -l12
+[0.607s] Invoking command in '/home/daguill/my_ws/build/c_pckg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_pckg
+[0.612s] -- Install configuration: ""
+[0.613s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/lib/c_pckg/talker
+[0.614s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/lib/c_pckg/listener
+[0.615s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/lib/c_pckg/tranceiver
+[0.615s] -- Installing: /home/daguill/my_ws/install/c_pckg/share/c_pckg//launch
+[0.615s] -- Installing: /home/daguill/my_ws/install/c_pckg/share/c_pckg//launch/_launch.py
+[0.615s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/ament_index/resource_index/package_run_dependencies/c_pckg
+[0.616s] -- Installing: /home/daguill/my_ws/install/c_pckg/share/ament_index/resource_index/parent_prefix_path/c_pckg
+[0.616s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/environment/ament_prefix_path.sh
+[0.616s] -- Installing: /home/daguill/my_ws/install/c_pckg/share/c_pckg/environment/ament_prefix_path.dsv
+[0.616s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/environment/path.sh
+[0.616s] -- Installing: /home/daguill/my_ws/install/c_pckg/share/c_pckg/environment/path.dsv
+[0.616s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/local_setup.bash
+[0.616s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/local_setup.sh
+[0.616s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/local_setup.zsh
+[0.616s] -- Installing: /home/daguill/my_ws/install/c_pckg/share/c_pckg/local_setup.dsv
+[0.616s] -- Installing: /home/daguill/my_ws/install/c_pckg/share/c_pckg/package.dsv
+[0.617s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/ament_index/resource_index/packages/c_pckg
+[0.617s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/cmake/c_pckgConfig.cmake
+[0.617s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/cmake/c_pckgConfig-version.cmake
+[0.617s] -- Up-to-date: /home/daguill/my_ws/install/c_pckg/share/c_pckg/package.xml
+[0.618s] Invoked command in '/home/daguill/my_ws/build/c_pckg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_pckg

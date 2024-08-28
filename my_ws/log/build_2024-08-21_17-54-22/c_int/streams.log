@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/daguill/my_ws/build/c_int': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_int -- -j12 -l12
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target pub_array[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_array.dir/src/array_pub.cpp.o[0m
+[3.370s] [100%] [32m[1mLinking CXX executable pub_array[0m
+[3.499s] [100%] Built target pub_array
+[3.507s] Invoked command in '/home/daguill/my_ws/build/c_int' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_int -- -j12 -l12
+[3.528s] Invoking command in '/home/daguill/my_ws/build/c_int': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_int
+[3.533s] -- Install configuration: ""
+[3.533s] -- Installing: /home/daguill/my_ws/install/c_int/lib/c_int/pub_array
+[3.534s] -- Set runtime path of "/home/daguill/my_ws/install/c_int/lib/c_int/pub_array" to ""
+[3.534s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int//launch
+[3.534s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int//launch/_launch.py
+[3.534s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/ament_index/resource_index/package_run_dependencies/c_int
+[3.534s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/ament_index/resource_index/parent_prefix_path/c_int
+[3.534s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/environment/ament_prefix_path.sh
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/environment/ament_prefix_path.dsv
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/environment/path.sh
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/environment/path.dsv
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.bash
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.sh
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.zsh
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.dsv
+[3.535s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/package.dsv
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/ament_index/resource_index/packages/c_int
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/cmake/c_intConfig.cmake
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/cmake/c_intConfig-version.cmake
+[3.535s] -- Up-to-date: /home/daguill/my_ws/install/c_int/share/c_int/package.xml
+[3.536s] Invoked command in '/home/daguill/my_ws/build/c_int' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_int

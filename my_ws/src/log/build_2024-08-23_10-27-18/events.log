@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000717] (-) JobUnselected: {'identifier': 'c_int'}
+[0.000767] (-) JobUnselected: {'identifier': 'c_pckg'}
+[0.000783] (-) JobUnselected: {'identifier': 'p_int'}
+[0.000797] (-) JobUnselected: {'identifier': 'p_pckg'}
+[0.000811] (c_arith) JobQueued: {'identifier': 'c_arith', 'dependencies': OrderedDict()}
+[0.000826] (c_arith) JobStarted: {'identifier': 'c_arith'}
+[0.007676] (c_arith) JobProgress: {'identifier': 'c_arith', 'progress': 'cmake'}
+[0.007881] (c_arith) Command: {'cmd': ['/usr/bin/cmake', '/home/daguill/my_ws/src/c_arith', '-DCMAKE_INSTALL_PREFIX=/home/daguill/my_ws/src/install/c_arith'], 'cwd': '/home/daguill/my_ws/src/build/c_arith', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'daguill'), ('LC_TIME', 'es_BO.UTF-8'), ('GIO_MODULE_DIR', '/home/daguill/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/daguill'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/daguill/my_ws'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/167/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/daguill/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_BO.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/167/usr/share/code/code'), ('MANAGERPID', '1431'), ('SYSTEMD_EXEC_PID', '1770'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2370'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/daguill/my_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daguill'), ('JOURNAL_STREAM', '8:10070'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'daguill'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dgpc:@/tmp/.ICE-unix/1580,unix/dgpc:/tmp/.ICE-unix/1580'), ('GTK_EXE_PREFIX', '/snap/code/167/usr'), ('INVOCATION_ID', 'e04aebe9064646fe82fb8a2725f0a2fd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/167/usr/lib/locale'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UYXQS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-851f07e730.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/daguill/snap/code/167/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/daguill/my_ws/install/p_int:/home/daguill/my_ws/install/p_pckg:/home/daguill/my_ws/install/c_pckg:/home/daguill/my_ws/install/c_int:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:54f280de-c842-446f-b4e9-e86ef7765cfe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/daguill/my_ws/src/build/c_arith'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/daguill/snap/code/167/.local/share:/home/daguill/snap/code/167:/snap/code/167/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/daguill/my_ws/install/p_int/lib/python3.10/site-packages:/home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/daguill/my_ws/install/c_pckg:/home/daguill/my_ws/install/c_int:/home/daguill/my_ws/install/p_int:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble')]), 'shell': False}
+[0.099989] (-) TimerEvent: {}
+[0.200303] (-) TimerEvent: {}
+[0.300761] (-) TimerEvent: {}
+[0.382909] (c_arith) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400869] (-) TimerEvent: {}
+[0.501201] (-) TimerEvent: {}
+[0.593639] (c_arith) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601219] (-) TimerEvent: {}
+[0.606061] (c_arith) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.659944] (c_arith) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.666524] (c_arith) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.671408] (c_arith) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.680950] (c_arith) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.698520] (c_arith) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701363] (-) TimerEvent: {}
+[0.801788] (-) TimerEvent: {}
+[0.815646] (c_arith) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.824335] (c_arith) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.824648] (c_arith) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.825030] (c_arith) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.828339] (c_arith) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.901903] (-) TimerEvent: {}
+[0.998623] (c_arith) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.002042] (-) TimerEvent: {}
+[1.102309] (-) TimerEvent: {}
+[1.136188] (c_arith) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.183064] (c_arith) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.191356] (c_arith) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.202368] (-) TimerEvent: {}
+[1.202654] (c_arith) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.217618] (c_arith) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.239067] (c_arith) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.287904] (c_arith) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.290972] (c_arith) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.302463] (-) TimerEvent: {}
+[1.364184] (c_arith) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.384325] (c_arith) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.402532] (-) TimerEvent: {}
+[1.413419] (c_arith) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.423949] (c_arith) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.485902] (c_arith) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.486298] (c_arith) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.502626] (-) TimerEvent: {}
+[1.541742] (c_arith) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.542668] (c_arith) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.602713] (-) TimerEvent: {}
+[1.604832] (c_arith) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.676732] (c_arith) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.676933] (c_arith) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.677011] (c_arith) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.677336] (c_arith) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.677984] (c_arith) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.678568] (c_arith) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.679523] (c_arith) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.679604] (c_arith) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.680052] (c_arith) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.681326] (c_arith) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.687479] (c_arith) StdoutLine: {'line': b'-- Generating done\n'}
+[1.688545] (c_arith) StdoutLine: {'line': b'-- Build files have been written to: /home/daguill/my_ws/src/build/c_arith\n'}
+[1.693983] (c_arith) CommandEnded: {'returncode': 0}
+[1.695099] (c_arith) JobProgress: {'identifier': 'c_arith', 'progress': 'build'}
+[1.695650] (c_arith) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daguill/my_ws/src/build/c_arith', '--', '-j12', '-l12'], 'cwd': '/home/daguill/my_ws/src/build/c_arith', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'daguill'), ('LC_TIME', 'es_BO.UTF-8'), ('GIO_MODULE_DIR', '/home/daguill/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/daguill'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/daguill/my_ws'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/167/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/daguill/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_BO.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/167/usr/share/code/code'), ('MANAGERPID', '1431'), ('SYSTEMD_EXEC_PID', '1770'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2370'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/daguill/my_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daguill'), ('JOURNAL_STREAM', '8:10070'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'daguill'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dgpc:@/tmp/.ICE-unix/1580,unix/dgpc:/tmp/.ICE-unix/1580'), ('GTK_EXE_PREFIX', '/snap/code/167/usr'), ('INVOCATION_ID', 'e04aebe9064646fe82fb8a2725f0a2fd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/167/usr/lib/locale'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UYXQS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-851f07e730.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/daguill/snap/code/167/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/daguill/my_ws/install/p_int:/home/daguill/my_ws/install/p_pckg:/home/daguill/my_ws/install/c_pckg:/home/daguill/my_ws/install/c_int:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:54f280de-c842-446f-b4e9-e86ef7765cfe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/daguill/my_ws/src/build/c_arith'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/daguill/snap/code/167/.local/share:/home/daguill/snap/code/167:/snap/code/167/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/daguill/my_ws/install/p_int/lib/python3.10/site-packages:/home/daguill/my_ws/install/p_pckg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/daguill/my_ws/install/c_pckg:/home/daguill/my_ws/install/c_int:/home/daguill/my_ws/install/p_int:/home/daguill/my_ws/install/p_pckg:/opt/ros/humble')]), 'shell': False}
+[1.702780] (-) TimerEvent: {}
+[1.732948] (c_arith) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sum_array.dir/src/sum.cpp.o\x1b[0m\n'}
+[1.802878] (-) TimerEvent: {}
+[1.903088] (-) TimerEvent: {}
+[2.003295] (-) TimerEvent: {}
+[2.103498] (-) TimerEvent: {}
+[2.203711] (-) TimerEvent: {}
+[2.303920] (-) TimerEvent: {}
+[2.404130] (-) TimerEvent: {}
+[2.504342] (-) TimerEvent: {}
+[2.604546] (-) TimerEvent: {}
+[2.704755] (-) TimerEvent: {}
+[2.804966] (-) TimerEvent: {}
+[2.905205] (-) TimerEvent: {}
+[3.005415] (-) TimerEvent: {}
+[3.105627] (-) TimerEvent: {}
+[3.205834] (-) TimerEvent: {}
+[3.306042] (-) TimerEvent: {}
+[3.406260] (-) TimerEvent: {}
+[3.506468] (-) TimerEvent: {}
+[3.606684] (-) TimerEvent: {}
+[3.706898] (-) TimerEvent: {}
+[3.807195] (-) TimerEvent: {}
+[3.907406] (-) TimerEvent: {}
+[4.007631] (-) TimerEvent: {}
+[4.066012] (c_arith) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sum_array\x1b[0m\n'}
+[4.107722] (-) TimerEvent: {}
+[4.135782] (c_arith) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[4.135916] (c_arith) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[4.138660] (c_arith) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[4.139832] (c_arith) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sum_array.dir/build.make:159: sum_array] Error 1\n'}
+[4.139987] (c_arith) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sum_array.dir/all] Error 2\n'}
+[4.140108] (c_arith) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.141513] (c_arith) CommandEnded: {'returncode': 2}
+[4.165265] (c_arith) JobEnded: {'identifier': 'c_arith', 'rc': 2}
+[4.175693] (-) EventReactorShutdown: {}

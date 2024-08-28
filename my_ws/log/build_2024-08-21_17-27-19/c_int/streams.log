@@ -1,0 +1,49 @@
+[0.008s] Invoking command in '/home/daguill/my_ws/build/c_int': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_int -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target pub_array[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_array.dir/src/array_pub.cpp.o[0m
+[1.756s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.756s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.756s]                  from [01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:6[m[K:
+[1.757s] [01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:[m[K In member function ‘[01m[Kvoid ArrayPublisher::timer_callback()[m[K’:
+[1.757s] [01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:31:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar*[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.757s]    31 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%s'"[m[K);
+[1.757s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.757s] [01m[K/home/daguill/my_ws/src/c_int/src/array_pub.cpp:31:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.757s]    31 |     RCLCPP_INFO(this->get_logger(), "Publishing: '[01;36m[K%s[m[K'");
+[1.757s]       |                                                   [01;36m[K~^[m[K
+[1.757s]       |                                                    [01;36m[K|[m[K
+[1.757s]       |                                                    [01;36m[Kchar*[m[K
+[3.310s] [100%] [32m[1mLinking CXX executable pub_array[0m
+[3.438s] [100%] Built target pub_array
+[3.445s] Invoked command in '/home/daguill/my_ws/build/c_int' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daguill/my_ws/build/c_int -- -j12 -l12
+[3.468s] Invoking command in '/home/daguill/my_ws/build/c_int': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_int
+[3.473s] -- Install configuration: ""
+[3.473s] -- Installing: /home/daguill/my_ws/install/c_int/lib/c_int/pub_array
+[3.474s] -- Set runtime path of "/home/daguill/my_ws/install/c_int/lib/c_int/pub_array" to ""
+[3.474s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int//launch
+[3.474s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int//launch/_launch.py
+[3.474s] -- Installing: /home/daguill/my_ws/install/c_int/share/ament_index/resource_index/package_run_dependencies/c_int
+[3.474s] -- Installing: /home/daguill/my_ws/install/c_int/share/ament_index/resource_index/parent_prefix_path/c_int
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/environment/ament_prefix_path.sh
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/environment/ament_prefix_path.dsv
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/environment/path.sh
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/environment/path.dsv
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.bash
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.sh
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.zsh
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/local_setup.dsv
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/package.dsv
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/ament_index/resource_index/packages/c_int
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/cmake/c_intConfig.cmake
+[3.475s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/cmake/c_intConfig-version.cmake
+[3.476s] -- Installing: /home/daguill/my_ws/install/c_int/share/c_int/package.xml
+[3.477s] Invoked command in '/home/daguill/my_ws/build/c_int' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daguill/my_ws/build/c_int

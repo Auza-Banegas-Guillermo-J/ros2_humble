@@ -1,0 +1,4 @@
+source;share/c_arith/local_setup.bash
+source;share/c_arith/local_setup.dsv
+source;share/c_arith/local_setup.sh
+source;share/c_arith/local_setup.zsh

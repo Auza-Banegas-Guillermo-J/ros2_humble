@@ -1,0 +1,11 @@
+[01m[K/home/daguill/my_ws/src/c_pckg/src/tranceiver_member_function.cpp:[m[K In constructor ‘[01m[Ktranceiver::tranceiver()[m[K’:
+[01m[K/home/daguill/my_ws/src/c_pckg/src/tranceiver_member_function.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   19 |     [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/daguill/my_ws/src/c_pckg/src/tranceiver_member_function.cpp:20:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[Ktranceiver[m[K’
+   20 |       "message_1", 10, std::bind(&tranceiver::[01;31m[Ktopic_callback[m[K, this, _1));
+      |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tranceiver.dir/build.make:76: CMakeFiles/tranceiver.dir/src/tranceiver_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/tranceiver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
