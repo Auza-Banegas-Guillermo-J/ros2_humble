@@ -1,4 +1,0 @@
-[01m[K/home/daguill/my_ws/src/c_int/src/array_sub.cpp:[m[K In member function ‘[01m[Kvoid ArraySuscriber::topic_callback(const Int8MultiArray&) const[m[K’:
-[01m[K/home/daguill/my_ws/src/c_int/src/array_sub.cpp:21:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   21 |   void topic_callback([01;35m[Kconst std_msgs::msg::Int8MultiArray & msg[m[K) const
-      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

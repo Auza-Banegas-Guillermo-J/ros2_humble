@@ -1,2 +1,0 @@
-Invoking command in '/home/daguill/my_ws/build/c_pckg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/daguill/my_ws/src/c_pckg -DCMAKE_INSTALL_PREFIX=/home/daguill/my_ws/install/c_pckg
-Invoked command in '/home/daguill/my_ws/build/c_pckg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/daguill/my_ws/src/c_pckg -DCMAKE_INSTALL_PREFIX=/home/daguill/my_ws/install/c_pckg

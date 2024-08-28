@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000213] (-) JobUnselected: {'identifier': 'c_pckg'}
-[0.000234] (-) JobUnselected: {'identifier': 'p_pckg'}
-[0.000551] (-) EventReactorShutdown: {}
