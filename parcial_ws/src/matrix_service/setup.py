@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'matrix_request = matrix_service.matrix_client:main',
+            'matrix_serve = matrix_service.matrix_server:main',
         ],
     },
 )

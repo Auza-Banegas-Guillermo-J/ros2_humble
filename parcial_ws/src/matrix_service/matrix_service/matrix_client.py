@@ -7,16 +7,16 @@ from rclpy.node import Node
 class Matrix_Client(Node):
 
     def __init__(self):
-        super().__init__('Matrix_Transofrmation')
-        self.cli = self.create_client(AddThreeInts, 'add_three_ints')
+        super().__init__('Matrix_Transofrmation_Client')
+        self.cli = self.create_client(Matrix, 'matrix_transform')
         while not self.cli.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('service not available, waiting again...')
-        self.req = AddThreeInts.Request()        
+            self.get_logger().info('Service unavailable')
+        self.req = Matrix.Request()
 
     def send_request(self):
-        self.req.a = int(sys.argv[1])
-        self.req.b = int(sys.argv[2])
-        self.req.c = int(sys.argv[3])            
+        self.req.alpha = float(sys.argv[1])
+        self.req.beta = float(sys.argv[2])
+        self.req.gamma = float(sys.argv[3])            
         self.future = self.cli.call_async(self.req)
 
 
@@ -36,8 +36,8 @@ def main(args=None):
                     'Service call failed %r' % (e,))
             else:
                 client_transform.get_logger().info(
-                    'Result of add_three_ints: for %d + %d + %d = %d' %     
-                    (client_transform.req.a, client_transform.req.b, client_transform.req.c, response.sum))
+                    'Resulting axis positions x: %.3f y: %.3f z: %.3f' %     
+                    (response.x, response.y, response.z))
             break
 
     client_transform.destroy_node()

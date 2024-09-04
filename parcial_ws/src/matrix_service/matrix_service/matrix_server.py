@@ -7,12 +7,12 @@ from rclpy.node import Node
 class Matrix_Service(Node):
 
     def __init__(self):
-        super().__init__('minimal_service')
-        self.srv = self.create_service(AddThreeInts, 'add_three_ints', self.add_three_ints_callback)       # CHANGE
+        super().__init__('Matrix_Transofrmation_Server')
+        self.srv = self.create_service(Matrix, 'matrix_transform', self.matrix_callback)       # CHANGE
 
-    def add_three_ints_callback(self, request, response):
-        response.sum = request.a + request.b + request.c                                                   # CHANGE
-        self.get_logger().info('Incoming request\na: %d b: %d c: %d' % (request.a, request.b, request.c))  # CHANGE
+    def matrix_callback(self, request, response):
+        #response.sum = request.a + request.b + request.c                                                   # CHANGE
+        self.get_logger().info('Incoming request\nalpha: %.3f b: %.3f c: %.3f' % (request.alpha, request.beta, request.gamma))  # CHANGE
 
         return response
 
@@ -21,7 +21,7 @@ def main(args=None):
 
     serve_matrix= Matrix_Service()
 
-    rclpy.spin(minimal_service)
+    rclpy.spin(serve_matrix)
 
     rclpy.shutdown()
 
