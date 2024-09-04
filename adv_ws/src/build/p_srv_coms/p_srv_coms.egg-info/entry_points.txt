@@ -1,0 +1,4 @@
+[console_scripts]
+client = p_srv_coms.client:main
+server = p_srv_coms.server:main
+

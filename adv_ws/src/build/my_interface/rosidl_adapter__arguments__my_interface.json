@@ -1,0 +1,8 @@
+{
+  "package_name": "my_interface",
+  "non_idl_tuples": [
+    "/home/daguill/ros2_humble/adv_ws/src/interface:msg/Num.msg",
+    "/home/daguill/ros2_humble/adv_ws/src/interface:msg/Sphere.msg",
+    "/home/daguill/ros2_humble/adv_ws/src/interface:srv/AddThreeInts.srv"
+  ]
+}

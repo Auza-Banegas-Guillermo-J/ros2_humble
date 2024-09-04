@@ -1,0 +1,21 @@
+[0.466s] Invoking command in '/home/daguill/ros2_humble/adv_ws/src/p_srv_coms': PYTHONPATH=/home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/p_srv_coms build --build-base /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build install --record /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/install.log --single-version-externally-managed install_data
+[0.654s] running egg_info
+[0.655s] writing ../build/p_srv_coms/p_srv_coms.egg-info/PKG-INFO
+[0.655s] writing dependency_links to ../build/p_srv_coms/p_srv_coms.egg-info/dependency_links.txt
+[0.655s] writing entry points to ../build/p_srv_coms/p_srv_coms.egg-info/entry_points.txt
+[0.655s] writing requirements to ../build/p_srv_coms/p_srv_coms.egg-info/requires.txt
+[0.655s] writing top-level names to ../build/p_srv_coms/p_srv_coms.egg-info/top_level.txt
+[0.657s] reading manifest file '../build/p_srv_coms/p_srv_coms.egg-info/SOURCES.txt'
+[0.657s] adding license file 'LICENSE'
+[0.658s] writing manifest file '../build/p_srv_coms/p_srv_coms.egg-info/SOURCES.txt'
+[0.658s] running build
+[0.658s] running build_py
+[0.659s] running install
+[0.659s] running install_lib
+[0.660s] running install_data
+[0.660s] running install_egg_info
+[0.662s] removing '/home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms-0.0.0-py3.10.egg-info' (and everything under it)
+[0.662s] Copying ../build/p_srv_coms/p_srv_coms.egg-info to /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms-0.0.0-py3.10.egg-info
+[0.663s] running install_scripts
+[0.679s] writing list of installed files to '/home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/install.log'
+[0.693s] Invoked command in '/home/daguill/ros2_humble/adv_ws/src/p_srv_coms' returned '0': PYTHONPATH=/home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/p_srv_coms build --build-base /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build install --record /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/install.log --single-version-externally-managed install_data

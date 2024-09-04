@@ -1,0 +1,38 @@
+running egg_info
+creating ../build/p_srv_coms/p_srv_coms.egg-info
+writing ../build/p_srv_coms/p_srv_coms.egg-info/PKG-INFO
+writing dependency_links to ../build/p_srv_coms/p_srv_coms.egg-info/dependency_links.txt
+writing entry points to ../build/p_srv_coms/p_srv_coms.egg-info/entry_points.txt
+writing requirements to ../build/p_srv_coms/p_srv_coms.egg-info/requires.txt
+writing top-level names to ../build/p_srv_coms/p_srv_coms.egg-info/top_level.txt
+writing manifest file '../build/p_srv_coms/p_srv_coms.egg-info/SOURCES.txt'
+reading manifest file '../build/p_srv_coms/p_srv_coms.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/p_srv_coms/p_srv_coms.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build
+creating /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build/lib
+creating /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build/lib/p_srv_coms
+copying p_srv_coms/server.py -> /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build/lib/p_srv_coms
+copying p_srv_coms/client.py -> /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build/lib/p_srv_coms
+copying p_srv_coms/__init__.py -> /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build/lib/p_srv_coms
+running install
+running install_lib
+creating /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms
+copying /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build/lib/p_srv_coms/server.py -> /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms
+copying /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build/lib/p_srv_coms/client.py -> /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms
+copying /home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/build/lib/p_srv_coms/__init__.py -> /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms
+byte-compiling /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms/server.py to server.cpython-310.pyc
+byte-compiling /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms/client.py to client.cpython-310.pyc
+byte-compiling /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/share/ament_index
+creating /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/share/ament_index/resource_index
+creating /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/share/ament_index/resource_index/packages
+copying resource/p_srv_coms -> /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/share/ament_index/resource_index/packages
+copying package.xml -> /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/share/p_srv_coms
+running install_egg_info
+Copying ../build/p_srv_coms/p_srv_coms.egg-info to /home/daguill/ros2_humble/adv_ws/src/install/p_srv_coms/lib/python3.10/site-packages/p_srv_coms-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/daguill/ros2_humble/adv_ws/src/build/p_srv_coms/install.log'

@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms': AMENT_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/c_srv_coms:/home/daguill/ros2_humble/adv_ws/install/c_msg_coms:/home/daguill/ros2_humble/adv_ws/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/interface:/home/daguill/ros2_humble/adv_ws/install/service:/opt/ros/humble LD_LIBRARY_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/daguill/ros2_humble/adv_ws/src/c_msg_coms -DCMAKE_INSTALL_PREFIX=/home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.247s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.250s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.445s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.478s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.481s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.488s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.548s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.550s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.611s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.630s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.666s] -- Looking for pthread.h
+[0.720s] -- Looking for pthread.h - found
+[0.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.774s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.775s] -- Found Threads: TRUE  
+[0.819s] -- Found my_interface: 0.0.0 (/home/daguill/ros2_humble/adv_ws/src/install/my_interface/share/my_interface/cmake)
+[0.846s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.911s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.911s] -- Configured cppcheck include dirs: 
+[0.912s] -- Configured cppcheck exclude dirs and/or files: 
+[0.912s] -- Added test 'lint_cmake' to check CMake code style
+[0.913s] -- Added test 'uncrustify' to check C / C++ code style
+[0.913s] -- Configured uncrustify additional arguments: 
+[0.913s] -- Added test 'xmllint' to check XML markup files
+[0.914s] -- Configuring done
+[0.936s] -- Generating done
+[0.937s] -- Build files have been written to: /home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms
+[0.947s] Invoked command in '/home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms' returned '0': AMENT_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/c_srv_coms:/home/daguill/ros2_humble/adv_ws/install/c_msg_coms:/home/daguill/ros2_humble/adv_ws/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/interface:/home/daguill/ros2_humble/adv_ws/install/service:/opt/ros/humble LD_LIBRARY_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/daguill/ros2_humble/adv_ws/src/c_msg_coms -DCMAKE_INSTALL_PREFIX=/home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms
+[0.947s] Invoking command in '/home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms': AMENT_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/c_srv_coms:/home/daguill/ros2_humble/adv_ws/install/c_msg_coms:/home/daguill/ros2_humble/adv_ws/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/interface:/home/daguill/ros2_humble/adv_ws/install/service:/opt/ros/humble LD_LIBRARY_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms -- -j12 -l12
+[0.983s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[0.983s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/suscriber.cpp.o[0m
+[5.220s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[5.411s] [ 75%] Built target talker
+[8.268s] [100%] [32m[1mLinking CXX executable listener[0m
+[8.539s] [100%] Built target listener
+[8.547s] Invoked command in '/home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms' returned '0': AMENT_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/c_srv_coms:/home/daguill/ros2_humble/adv_ws/install/c_msg_coms:/home/daguill/ros2_humble/adv_ws/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/interface:/home/daguill/ros2_humble/adv_ws/install/service:/opt/ros/humble LD_LIBRARY_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms -- -j12 -l12
+[8.567s] Invoking command in '/home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms': AMENT_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/c_srv_coms:/home/daguill/ros2_humble/adv_ws/install/c_msg_coms:/home/daguill/ros2_humble/adv_ws/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/interface:/home/daguill/ros2_humble/adv_ws/install/service:/opt/ros/humble LD_LIBRARY_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms
+[8.573s] -- Install configuration: ""
+[8.573s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/lib/c_msg_coms/talker
+[8.574s] -- Set runtime path of "/home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/lib/c_msg_coms/talker" to ""
+[8.574s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/lib/c_msg_coms/listener
+[8.576s] -- Set runtime path of "/home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/lib/c_msg_coms/listener" to ""
+[8.576s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/ament_index/resource_index/package_run_dependencies/c_msg_coms
+[8.576s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/ament_index/resource_index/parent_prefix_path/c_msg_coms
+[8.577s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/environment/ament_prefix_path.sh
+[8.577s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/environment/ament_prefix_path.dsv
+[8.577s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/environment/path.sh
+[8.577s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/environment/path.dsv
+[8.577s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/local_setup.bash
+[8.577s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/local_setup.sh
+[8.577s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/local_setup.zsh
+[8.577s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/local_setup.dsv
+[8.577s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/package.dsv
+[8.578s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/ament_index/resource_index/packages/c_msg_coms
+[8.578s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/cmake/c_msg_comsConfig.cmake
+[8.578s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/cmake/c_msg_comsConfig-version.cmake
+[8.578s] -- Installing: /home/daguill/ros2_humble/adv_ws/src/install/c_msg_coms/share/c_msg_coms/package.xml
+[8.580s] Invoked command in '/home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms' returned '0': AMENT_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/c_srv_coms:/home/daguill/ros2_humble/adv_ws/install/c_msg_coms:/home/daguill/ros2_humble/adv_ws/install/my_interface:/home/daguill/ros2_humble/adv_ws/install/interface:/home/daguill/ros2_humble/adv_ws/install/service:/opt/ros/humble LD_LIBRARY_PATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daguill/ros2_humble/adv_ws/src/install/my_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/daguill/ros2_humble/adv_ws/src/build/c_msg_coms
