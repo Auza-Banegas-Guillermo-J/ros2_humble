@@ -4,3 +4,9 @@ my_ws/log
 adv_ws/build
 adv_ws/install
 adv_ws/log
+parcial_ws/build
+parcial_ws/install
+parcial_ws/log
+esp_ws/build
+esp_ws/install
+esp_ws/log
