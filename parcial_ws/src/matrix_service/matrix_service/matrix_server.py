@@ -8,10 +8,10 @@ class Matrix_Service(Node):
     def __init__(self):
         super().__init__('Matrix_Transofrmation_Server')
         self.srv = self.create_service(Matrix, 'matrix_transform', self.matrix_callback)
-        self.angles=[,20.0,30.0]
+        self.angles=[20.0,45.0,10.0]
             
     def matrix_callback(self, request, response):
-        self.get_logger().info('Incoming request\nalpha: %.3f b: %.3f c: %.3f' % (self.angles[0], self.angles[1], self.angles[2]))
+        self.get_logger().info('Incoming request\nalpha: %.3f beta: %.3f gamma: %.3f' % (self.angles[0], self.angles[1], self.angles[2]))
         alpha, beta, gamma, l1, l2 = sp.symbols('alpha beta gamma l1 l2')
 
         Ry1 = sp.Matrix([
