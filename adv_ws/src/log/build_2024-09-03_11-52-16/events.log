@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000211] (-) JobUnselected: {'identifier': 'c_msg_coms'}
-[0.000243] (-) JobUnselected: {'identifier': 'c_srv_coms'}
-[0.000272] (-) JobUnselected: {'identifier': 'my_interface'}
-[0.000285] (-) JobUnselected: {'identifier': 'p_srv_coms'}
-[0.000298] (-) EventReactorShutdown: {}
