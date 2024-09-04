@@ -13,10 +13,7 @@ class Matrix_Client(Node):
             self.get_logger().info('Service unavailable')
         self.req = Matrix.Request()
 
-    def send_request(self):
-        self.req.alpha = float(sys.argv[1])
-        self.req.beta = float(sys.argv[2])
-        self.req.gamma = float(sys.argv[3])            
+    def send_request(self):          
         self.future = self.cli.call_async(self.req)
 
 
