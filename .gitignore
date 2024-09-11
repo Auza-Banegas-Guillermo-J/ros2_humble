@@ -10,4 +10,9 @@ parcial_ws/log
 esp_ws/build
 esp_ws/install
 esp_ws/log
-Exam_I_ws/
+intermidiate_ws/build  
+intermidiate_ws/install  
+intermidiate_ws/log
+mechanical_ws/build  
+mechanical_ws/install  
+mechanical_ws/log
