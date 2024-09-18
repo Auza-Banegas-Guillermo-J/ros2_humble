@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<robot name="Guille_Car">
+
+    <material name="Red">
+        <color rgba="1.0 0 0 1.0"/>
+    </material>
+
+    <material name="Green">
+        <color rgba="0 1.0 0 1.0"/>
+    </material>
+
+    <material name="Blue">
+     <color rgba="0 0 1.0 1.0"/>
+    </material>
+
+    <material name="White">
+        <color rgba="1.0 1.0 1.0 1.0"/>
+    </material>
+
+    <material name="Black">
+        <color rgba="0 0 0 1.0"/>
+    </material>
+
+    <material name="Aqua">
+        <color rgba="0 1.0 1.0 1.0"/>
+    </material>
+
+    <link name="base_footprint" />
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.6 0.4 0.2"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="Aqua"/>
+        </visual>
+    </link>
+
+    <link name="hat">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0.025" rpy="0 0 0"/>
+            <material name="Blue"/>
+        </visual>
+    </link>
+
+    <link name="left_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <material name="White"/>
+        </visual>
+    </link>
+
+    <link name="right_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <material name="White"/>
+        </visual>
+    </link>
+
+    <link name="caster">
+        <visual>
+            <geometry>
+                <sphere radius="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="White"/>
+        </visual>
+    </link>
+
+    <joint name="footprint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.15" ryp="0 0 0"/>
+    </joint>
+
+    <joint name="base_hat" type="fixed">
+        <parent link="base_link"/>
+        <child link="hat"/>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="base_left_wheel" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel"/>
+        <origin xyz="-0.15 -0.2 -0.1" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="base_right_wheel" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel"/>
+        <origin xyz="-0.15 0.2 -0.1" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="base_caster" type="fixed">
+        <parent link="base_link"/>
+        <child link="caster"/>
+        <origin xyz="0.15 0 -0.1" rpy="0 0 0"/>
+    </joint>
+
+</robot>

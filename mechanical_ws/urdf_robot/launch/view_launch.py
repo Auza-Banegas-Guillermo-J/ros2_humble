@@ -10,7 +10,7 @@ from launch.substitutions import Command, LaunchConfiguration
 
 def generate_launch_description():
     urdf_tutorial_path = get_package_share_path('urdf_robot')
-    default_model_path = urdf_tutorial_path / 'urdf/my_robot.urdf'
+    default_model_path = urdf_tutorial_path / 'urdf/robot_test.urdf'
     default_rviz_config_path = urdf_tutorial_path / 'rviz/urdf.rviz'
 
     gui_arg = DeclareLaunchArgument(name='gui', default_value='true', choices=['true', 'false'],
