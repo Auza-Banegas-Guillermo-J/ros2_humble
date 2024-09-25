@@ -64,27 +64,33 @@ int main(int argc, char * argv[])
   
   // Plan to the target pose
   moveit::planning_interface::MoveGroupInterface::Plan my_plan;
-  
-  
-  geometry_msgs::msg::Pose target_pose_2;
-  target_pose_2.orientation.w = 1.0;
-  target_pose_2.position.x = -0.1;
-  target_pose_2.position.y = 0.25;
-  target_pose_2.position.z = 0.3;
-  move_group.setPoseTarget(target_pose_2);
-  
-  moveit::planning_interface::MoveGroupInterface::Plan my_plan_2;
 
   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
 
   if (success) {
     RCLCPP_INFO(logger, "Plan successful, executing...");
     move_group.execute(my_plan);
-    move_group.execute(my_plan_2);
   } else {
     RCLCPP_ERROR(logger, "Planning failed!");
   }
 
+  geometry_msgs::msg::Pose target_pose_2;
+  target_pose_2.orientation.w = 1.0;
+  target_pose_2.position.x = 0.486;
+  target_pose_2.position.y = 0.616;
+  target_pose_2.position.z = 0.270;
+  move_group.setPoseTarget(target_pose_2);
+  
+  moveit::planning_interface::MoveGroupInterface::Plan my_plan_2;
+
+  success = (move_group.plan(my_plan_2) == moveit::planning_interface::MoveItErrorCode::SUCCESS);
+
+  if (success) {
+    RCLCPP_INFO(logger, "Plan successful, executing...");
+    move_group.execute(my_plan_2);
+  } else {
+    RCLCPP_ERROR(logger, "Planning failed!");
+  }
 
 
   // Shutdown ROS
